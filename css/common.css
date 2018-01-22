@@ -115,6 +115,17 @@ footer {
 .harf {width: 48%;}
 .quarter {width: 22%;}
 
+/*ホバーした時に画像を透過する*/
+.col img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.col:hover img {
+	opacity: .5;
+}
+
 
 /* 表の装飾
  -------------------------------------------- */
